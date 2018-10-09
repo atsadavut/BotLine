@@ -6,11 +6,11 @@ const char* ssid     = "your SSID"; //change this to your SSID
 const char* password = "your PASSWORD"; //change this to your PASSWORD
 
 const char* host = "https://snrubot.herokuapp.com/bot.php";//change this to your linebot server ex.http://numpapick-linebot.herokuapp.com/bot.php
-#define APPID   "rjP8cIChgV0MQXe"     //change this to your APPID
-#define KEY     "0R5CRsae3DhOWOikZ9bNjbONF"     //change this to your KEY
-#define SECRET  "rjP8cIChgV0MQXe:0R5CRsae3DhOWOikZ9bNjbONF"     //change this to your SECRET
+#define APPID   "BotSNRU"     //change this to your APPID
+#define KEY     "rjP8cIChgV0MQXe"     //change this to your KEY
+#define SECRET  "0R5CRsae3DhOWOikZ9bNjbONF"     //change this to your SECRET
 
-#define ALIAS   "NodeMCU1" //set name of drvice
+#define ALIAS   "BOT_SNRU" //set name of drvice
 #define TargetWeb "switch" //set target name of web
 
 WiFiClient client;

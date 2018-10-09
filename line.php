@@ -2,7 +2,7 @@
   
 
 function send_LINE($msg){
- $access_token = 'qLip9omRdSnsaKFlsWmCCx9pdvAcRd1CGb6XfH/K3aKVgmHS4Eh/a35I8S1q8XVCZQVJUVIPa2B/c1ZJHfEyA8vUgqlUeIfqTkw607IKQ7yCasUHW34wj+CGzB6bOafYNDSGkh87GIr+Tns7fqFqVAdB04t89/1O/w1cDnyilFU='; 
+ $access_token = 'yeEwHBEXRsDDJtsY2ePxPL+lrVnF55C0Z8Jo80dVCX8lCjwnr6GGrAAG/F+jx5NbaUAkC00bm6PDoK+dj9yWYdMlulN2h+cHmz7JJJRQSQl2z7HpZMBj6tfST8xIkfl2AQzshO8qLi4r+Uc4BT86YAdB04t89/1O/w1cDnyilFU='; 
 
   $messages = [
         'type' => 'text',
@@ -14,7 +14,7 @@ function send_LINE($msg){
       $url = 'https://api.line.me/v2/bot/message/push';
       $data = [
 
-        'to' => 'Ue77a191627f6ac91899e75d92264310c',
+        'to' => 'Ud71e07a36fb64394e79e11ab73277e32',
         'messages' => [$messages],
       ];
       $post = json_encode($data);

@@ -2,8 +2,8 @@
 #include <MicroGear.h>
 #include <ESP8266HTTPClient.h>
 #include <ArduinoJson.h>
-const char* ssid     = "your SSID"; //change this to your SSID
-const char* password = "your PASSWORD"; //change this to your PASSWORD
+const char* ssid     = "BlackRabbit2"; //change this to your SSID
+const char* password = "4444455555"; //change this to your PASSWORD
 
 const char* host = "https://snrubot.herokuapp.com/bot.php";//change this to your linebot server ex.http://numpapick-linebot.herokuapp.com/bot.php
 #define APPID   "BotSNRU"     //change this to your APPID
